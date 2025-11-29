@@ -1,8 +1,9 @@
-import config  
 import google.generativeai as genai
 
 
 def mentor_agent(topic, problem):
+
+    model = genai.GenerativeModel("models/gemini-2.5-flash")  # REQUIRED
 
     prompt = f"""
     You are an AI DSA mentor.
@@ -19,7 +20,6 @@ def mentor_agent(topic, problem):
     ⚡ Approach: <1 line>
     """
 
-    model = genai.GenerativeModel("models/gemini-2.5-flash")
     result = model.generate_content(prompt).text.strip()
 
     return result

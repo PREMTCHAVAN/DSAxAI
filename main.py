@@ -1,6 +1,14 @@
+from dotenv import load_dotenv
+import os
+import google.generativeai as genai
+
+load_dotenv()
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
 from src.agents.planner_agent import planner_agent
 from src.agents.mentor_agent import mentor_agent
 from src.core.recommender import get_recommendations
+
 
 
 def run_dsa_agent():

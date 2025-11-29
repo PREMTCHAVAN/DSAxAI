@@ -1,9 +1,11 @@
 {
-    "ARRAYS & STRINGS": 16,
-    "LINKED LIST": 0,
-    "TREES & GRAPHS": 0,
+    "ARRAYS & STRINGS": 2,
+    "LINKED LIST": 1,
+    "TREES & GRAPHS": 2,
+    "BINARY SEARCH + GREEDY": 0,
     "DYNAMIC PROGRAMMING": 0,
-    "GREEDY": 0,
+    "BACKTRACKING + BITMASK": 1,
     "HEAPS & TRIES": 0,
-    "DESIGN": 0
+    "DESIGN": 0,
+    "SPECIAL MIXED": 0
 }

@@ -1,7 +1,8 @@
+from dotenv import load_dotenv
 import google.generativeai as genai
 
 # paste your API key inside quotes
-genai.configure(api_key="AIzaSyC79Rnm1DnGZcrP23ZHPi6Oh3ehkcd56fU")
+genai.configure(api_key="GOOGLE_API_KEY")
 
 # list available models
 models = genai.list_models()
