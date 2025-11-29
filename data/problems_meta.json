@@ -1,0 +1,10 @@
+{
+  "Arrays & Strings": [
+    { "name": "Two Sum", "pattern": "Hashmap", "company": ["Amazon","Google","Microsoft"] },
+    { "name": "Best Time to Buy & Sell Stock", "pattern": "Kadane/Greedy", "company": ["Amazon","Goldman Sachs"] },
+    { "name": "Group Anagrams", "pattern": "Hashing", "company": ["Google","Meta"] },
+    { "name": "Rotate Array", "pattern": "Two Pointers", "company": ["Google","Airbnb"] },
+    { "name": "Product of Array Except Self", "pattern": "Prefix Product", "company": ["Amazon","Meta"] },
+    { "name": "Longest Substring Without Repeat", "pattern": "Sliding Window", "company": ["Meta","Google"] }
+  ]
+}
