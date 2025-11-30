@@ -1,5 +1,14 @@
+# Never track secrets
 .env
+
+# Never track virtual env
 env/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
-.gitignore
+
+# IDE stuff (optional but good)
+.vscode/
+.idea/
